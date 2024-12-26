@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Monte o seu computador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <link rel="stylesheet" href="principal.css"/>
+        <link rel="stylesheet" href="tabela.css">
+              
+    </head>
+    <body>
+        <header>
+            <h1> PC </h1>
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cadastro.html">Cadastro de produtos</a>
+            <a href="alterar.html">Alterar Produtos</a> 
+            <a href="deletar.html">Excluir Produtos</a> 
+            <a href="consultar.html">Consultar um Produto</a> 
+            <a href="ManterProduto?btnop=CONSULTARTODOS">Listar Todos os Produtos</a>
+        </nav>
+        
+        <header>
+            <h1>Monte o seu computador</h1>
+        </header>
+        <div>
+            <form name="formproduto" action="ManterProduto" method="GET">
+                <table>
+                    <tr>
+                        <input type="text" name="txtid" placeholder="Digite ID" class="tabelacadastro"><BR>
+                    </tr>
+                    
+                    <tr>
+                        <input type="text" id="txtprocessador" name="txtprocessador" placeholder="Digite o processador" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtcooler" placeholder="Digite o cooler" class="tabelacadastro"><BR>
+                    </tr>
+                    
+                    <tr>
+                        <input type="text" name="txtplacadevideo" placeholder="Digite a placa de video" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtplacamae" placeholder="Digite a placa mãe" class="tabelacadastro"><BR>
+                    </tr>
+                    
+                    <tr>
+                        <input type="text" name="txtmemoriaram" placeholder="Digite a memoria ram" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtarmazenamento" placeholder="Digite o armazenamento" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtgabinete" placeholder="Digite o gabinete" class="tabelacadastro"><BR>
+                    </tr>
+                    
+                    <tr>
+                        <input type="text" name="txtfonte" placeholder="Digite a fonte" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtmonitor" placeholder="Digite o monitor" class="tabelacadastro"><BR>
+                    </tr>
+
+                    <tr>
+                        <input type="text" name="txtteclado" placeholder="Digite o teclado" class="tabelacadastro"><BR>
+                    </tr>                  
+                </table>
+                
+                <button type="submit" name="btnop" value="CADASTRAR" class="botao">CADASTRAR</button>  
+            </form>          
+        </div>   
+        
+    </body>
+</html>

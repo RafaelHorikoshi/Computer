@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto
+}
+
+th {
+    width: 500px;
+    background-color:#24c0f0;
+    color: white;
+    text-align: left;
+    padding: 5px 10px
+}
+
+td {
+    text-align: center;
+    border: solid #ededed;
+    padding: 5px 10px
+        
+}
+
+.tabelacadastro{
+    width: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid #24c0f0;
+    border-radius: 5px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

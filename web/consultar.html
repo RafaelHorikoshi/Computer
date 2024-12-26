@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Monte o seu computador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="principal.css"/>
+        <link rel="stylesheet" href="tabela.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1> PC </h1>          
+        </header>
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cadastro.html">Cadastro de produtos</a>
+            <a href="alterar.html">Alterar Produtos</a> 
+            <a href="deletar.html">Excluir Produtos</a> 
+            <a href="consultar.html">Consultar um Produto</a> 
+            <a href="ManterProduto?btnop=CONSULTARTODOS">Listar Todos os Produtos</a>
+        </nav>
+        
+        <header>
+            <h1>Digite o ID do Produto que Deseja Consultar</h1>
+        </header>
+        
+        <div>
+            <form action="ManterProduto" method="GET">
+                <input type="text" name="txtid" placeholder="Digite ID" class="tabelacadastro"><BR>
+
+                <button type="submit" name="btnop" value="CONSULTARBYID" class="botao">Consultar</button>
+            </form>
+        
+        </div>
+    </body>
+</html>
